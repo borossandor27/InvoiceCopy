@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InvoiceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.nav.gov.hu/OSA/3.0/data">
+	<invoiceNumber>0001159/21-V</invoiceNumber>
+	<invoiceIssueDate>2021-10-22</invoiceIssueDate>
+	<completenessIndicator>false</completenessIndicator>
+	<invoiceMain>
+		<invoice>
+			<invoiceHead>
+				<supplierInfo>
+					<supplierTaxNumber>
+						<taxpayerId xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">24785725</taxpayerId>
+						<vatCode xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">2</vatCode>
+						<countyCode xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">44</countyCode>
+					</supplierTaxNumber>
+					<supplierName>Mediaworks Hungary Zrt</supplierName>
+					<supplierAddress>
+						<simpleAddress xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">
+							<countryCode>HU</countryCode>
+							<postalCode>1082</postalCode>
+							<city>Budapest</city>
+							<additionalAddressDetail>Üllői út.48.</additionalAddressDetail>
+						</simpleAddress>
+					</supplierAddress>
+				</supplierInfo>
+				<customerInfo>
+					<customerVatStatus>DOMESTIC</customerVatStatus>
+					<customerVatData>
+						<customerTaxNumber>
+							<taxpayerId xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">12574645</taxpayerId>
+							<vatCode xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">2</vatCode>
+							<countyCode xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">42</countyCode>
+						</customerTaxNumber>
+					</customerVatData>
+					<customerName>A/3 Kft.</customerName>
+					<customerAddress>
+						<simpleAddress xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">
+							<countryCode>HU</countryCode>
+							<postalCode>1077</postalCode>
+							<city>Budapest</city>
+							<additionalAddressDetail>Rottenbiller u. 50.</additionalAddressDetail>
+						</simpleAddress>
+					</customerAddress>
+				</customerInfo>
+				<invoiceDetail>
+					<invoiceCategory>NORMAL</invoiceCategory>
+					<invoiceDeliveryDate>2021-10-22</invoiceDeliveryDate>
+					<currencyCode>HUF</currencyCode>
+					<exchangeRate>1</exchangeRate>
+					<paymentMethod>TRANSFER</paymentMethod>
+					<paymentDate>2021-11-22</paymentDate>
+					<invoiceAppearance>PAPER</invoiceAppearance>
+				</invoiceDetail>
+			</invoiceHead>
+			<invoiceLines>
+				<mergedItemIndicator>false</mergedItemIndicator>
+				<line>
+					<lineNumber>1</lineNumber>
+					<productCodes>
+						<productCode>
+							<productCodeCategory>OWN</productCodeCategory>
+							<productCodeOwnValue>711828/05</productCodeOwnValue>
+						</productCode>
+					</productCodes>
+					<lineExpressionIndicator>false</lineExpressionIndicator>
+					<lineDescription>Állatorvosi szótár Magyar - latin - angol - német</lineDescription>
+					<quantity>4</quantity>
+					<unitOfMeasure>PIECE</unitOfMeasure>
+					<unitPrice>9000</unitPrice>
+					<lineAmountsNormal>
+						<lineNetAmountData>
+							<lineNetAmount>36000.00</lineNetAmount>
+							<lineNetAmountHUF>36000.00</lineNetAmountHUF>
+						</lineNetAmountData>
+						<lineVatRate>
+							<vatPercentage>0.05</vatPercentage>
+						</lineVatRate>
+						<lineVatData>
+							<lineVatAmount>1800.00</lineVatAmount>
+							<lineVatAmountHUF>1800.00</lineVatAmountHUF>
+						</lineVatData>
+						<lineGrossAmountData>
+							<lineGrossAmountNormal>37800.00</lineGrossAmountNormal>
+							<lineGrossAmountNormalHUF>37800.00</lineGrossAmountNormalHUF>
+						</lineGrossAmountData>
+					</lineAmountsNormal>
+					<additionalLineData>
+						<dataName>T00001_TETELSSZ</dataName>
+						<dataDescription>belso tetelazonosito</dataDescription>
+						<dataValue>16196</dataValue>
+					</additionalLineData>
+				</line>
+				<line>
+					<lineNumber>2</lineNumber>
+					<productCodes>
+						<productCode>
+							<productCodeCategory>OWN</productCodeCategory>
+							<productCodeOwnValue>712123/11</productCodeOwnValue>
+						</productCode>
+					</productCodes>
+					<lineExpressionIndicator>false</lineExpressionIndicator>
+					<lineDescription>Állatorvosi járványtan I. (Állatorvosi mikrobiológia)</lineDescription>
+					<quantity>4</quantity>
+					<unitOfMeasure>PIECE</unitOfMeasure>
+					<unitPrice>4600</unitPrice>
+					<lineAmountsNormal>
+						<lineNetAmountData>
+							<lineNetAmount>18400.00</lineNetAmount>
+							<lineNetAmountHUF>18400.00</lineNetAmountHUF>
+						</lineNetAmountData>
+						<lineVatRate>
+							<vatPercentage>0.05</vatPercentage>
+						</lineVatRate>
+						<lineVatData>
+							<lineVatAmount>920.00</lineVatAmount>
+							<lineVatAmountHUF>920.00</lineVatAmountHUF>
+						</lineVatData>
+						<lineGrossAmountData>
+							<lineGrossAmountNormal>19320.00</lineGrossAmountNormal>
+							<lineGrossAmountNormalHUF>19320.00</lineGrossAmountNormalHUF>
+						</lineGrossAmountData>
+					</lineAmountsNormal>
+					<additionalLineData>
+						<dataName>T00001_TETELSSZ</dataName>
+						<dataDescription>belso tetelazonosito</dataDescription>
+						<dataValue>16197</dataValue>
+					</additionalLineData>
+				</line>
+				<line>
+					<lineNumber>3</lineNumber>
+					<productCodes>
+						<productCode>
+							<productCodeCategory>OWN</productCodeCategory>
+							<productCodeOwnValue>756117/20</productCodeOwnValue>
+						</productCode>
+					</productCodes>
+					<lineExpressionIndicator>false</lineExpressionIndicator>
+					<lineDescription>Juhtenyésztés</lineDescription>
+					<quantity>3</quantity>
+					<unitOfMeasure>PIECE</unitOfMeasure>
+					<unitPrice>3933.3333</unitPrice>
+					<lineAmountsNormal>
+						<lineNetAmountData>
+							<lineNetAmount>11800.00</lineNetAmount>
+							<lineNetAmountHUF>11800.00</lineNetAmountHUF>
+						</lineNetAmountData>
+						<lineVatRate>
+							<vatPercentage>0.05</vatPercentage>
+						</lineVatRate>
+						<lineVatData>
+							<lineVatAmount>590.00</lineVatAmount>
+							<lineVatAmountHUF>590.00</lineVatAmountHUF>
+						</lineVatData>
+						<lineGrossAmountData>
+							<lineGrossAmountNormal>12390.00</lineGrossAmountNormal>
+							<lineGrossAmountNormalHUF>12390.00</lineGrossAmountNormalHUF>
+						</lineGrossAmountData>
+					</lineAmountsNormal>
+					<additionalLineData>
+						<dataName>T00001_TETELSSZ</dataName>
+						<dataDescription>belso tetelazonosito</dataDescription>
+						<dataValue>16198</dataValue>
+					</additionalLineData>
+				</line>
+			</invoiceLines>
+			<invoiceSummary>
+				<summaryNormal>
+					<summaryByVatRate>
+						<vatRate>
+							<vatPercentage>0.05</vatPercentage>
+						</vatRate>
+						<vatRateNetData>
+							<vatRateNetAmount>66200.00</vatRateNetAmount>
+							<vatRateNetAmountHUF>66200.00</vatRateNetAmountHUF>
+						</vatRateNetData>
+						<vatRateVatData>
+							<vatRateVatAmount>3310.00</vatRateVatAmount>
+							<vatRateVatAmountHUF>3310.00</vatRateVatAmountHUF>
+						</vatRateVatData>
+						<vatRateGrossData>
+							<vatRateGrossAmount>69510.00</vatRateGrossAmount>
+							<vatRateGrossAmountHUF>69510.00</vatRateGrossAmountHUF>
+						</vatRateGrossData>
+					</summaryByVatRate>
+					<invoiceNetAmount>66200.00</invoiceNetAmount>
+					<invoiceNetAmountHUF>66200.00</invoiceNetAmountHUF>
+					<invoiceVatAmount>3310.00</invoiceVatAmount>
+					<invoiceVatAmountHUF>3310.00</invoiceVatAmountHUF>
+				</summaryNormal>
+				<summaryGrossData>
+					<invoiceGrossAmount>69510.00</invoiceGrossAmount>
+					<invoiceGrossAmountHUF>69510.00</invoiceGrossAmountHUF>
+				</summaryGrossData>
+			</invoiceSummary>
+		</invoice>
+	</invoiceMain>
+</InvoiceData>

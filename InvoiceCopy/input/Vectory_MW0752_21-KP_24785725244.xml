@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InvoiceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.nav.gov.hu/OSA/3.0/data">
+	<invoiceNumber>MW0752/21-KP</invoiceNumber>
+	<invoiceIssueDate>2021-10-22</invoiceIssueDate>
+	<completenessIndicator>false</completenessIndicator>
+	<invoiceMain>
+		<invoice>
+			<invoiceHead>
+				<supplierInfo>
+					<supplierTaxNumber>
+						<taxpayerId xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">24785725</taxpayerId>
+						<vatCode xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">2</vatCode>
+						<countyCode xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">44</countyCode>
+					</supplierTaxNumber>
+					<supplierName>Mediaworks Hungary Zrt</supplierName>
+					<supplierAddress>
+						<simpleAddress xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">
+							<countryCode>HU</countryCode>
+							<postalCode>1082</postalCode>
+							<city>Budapest</city>
+							<additionalAddressDetail>Üllői út 48.</additionalAddressDetail>
+						</simpleAddress>
+					</supplierAddress>
+				</supplierInfo>
+				<customerInfo>
+					<customerVatStatus>DOMESTIC</customerVatStatus>
+					<customerVatData>
+						<customerTaxNumber>
+							<taxpayerId xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">13706995</taxpayerId>
+							<vatCode xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">2</vatCode>
+							<countyCode xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">20</countyCode>
+						</customerTaxNumber>
+					</customerVatData>
+					<customerName>EPT Tervező, Kivitelező Kft.</customerName>
+					<customerAddress>
+						<simpleAddress xmlns="http://schemas.nav.gov.hu/OSA/3.0/base">
+							<countryCode>HU</countryCode>
+							<postalCode>8800</postalCode>
+							<city>Nagykanizsa</city>
+							<additionalAddressDetail>Szent Rókus  utca 24</additionalAddressDetail>
+						</simpleAddress>
+					</customerAddress>
+				</customerInfo>
+				<invoiceDetail>
+					<invoiceCategory>NORMAL</invoiceCategory>
+					<invoiceDeliveryDate>2021-10-22</invoiceDeliveryDate>
+					<currencyCode>HUF</currencyCode>
+					<exchangeRate>1</exchangeRate>
+					<paymentMethod>CASH</paymentMethod>
+					<paymentDate>2021-10-22</paymentDate>
+					<invoiceAppearance>PAPER</invoiceAppearance>
+				</invoiceDetail>
+			</invoiceHead>
+			<invoiceLines>
+				<mergedItemIndicator>false</mergedItemIndicator>
+				<line>
+					<lineNumber>1</lineNumber>
+					<productCodes>
+						<productCode>
+							<productCodeCategory>OWN</productCodeCategory>
+							<productCodeOwnValue>A8000752</productCodeOwnValue>
+						</productCode>
+					</productCodes>
+					<lineExpressionIndicator>false</lineExpressionIndicator>
+					<lineDescription>GLS CSOMAGFELADÁS</lineDescription>
+					<quantity>1</quantity>
+					<unitOfMeasure>PIECE</unitOfMeasure>
+					<unitPrice>7755.9055</unitPrice>
+					<lineAmountsNormal>
+						<lineNetAmountData>
+							<lineNetAmount>7755.91</lineNetAmount>
+							<lineNetAmountHUF>7755.91</lineNetAmountHUF>
+						</lineNetAmountData>
+						<lineVatRate>
+							<vatPercentage>0.27</vatPercentage>
+						</lineVatRate>
+						<lineVatData>
+							<lineVatAmount>2094.09</lineVatAmount>
+							<lineVatAmountHUF>2094.09</lineVatAmountHUF>
+						</lineVatData>
+						<lineGrossAmountData>
+							<lineGrossAmountNormal>9850.00</lineGrossAmountNormal>
+							<lineGrossAmountNormalHUF>9850.00</lineGrossAmountNormalHUF>
+						</lineGrossAmountData>
+					</lineAmountsNormal>
+					<additionalLineData>
+						<dataName>T00001_TETELSSZ</dataName>
+						<dataDescription>belso tetelazonosito</dataDescription>
+						<dataValue>541546</dataValue>
+					</additionalLineData>
+				</line>
+			</invoiceLines>
+			<invoiceSummary>
+				<summaryNormal>
+					<summaryByVatRate>
+						<vatRate>
+							<vatPercentage>0.27</vatPercentage>
+						</vatRate>
+						<vatRateNetData>
+							<vatRateNetAmount>7755.91</vatRateNetAmount>
+							<vatRateNetAmountHUF>7755.91</vatRateNetAmountHUF>
+						</vatRateNetData>
+						<vatRateVatData>
+							<vatRateVatAmount>2094.00</vatRateVatAmount>
+							<vatRateVatAmountHUF>2094.00</vatRateVatAmountHUF>
+						</vatRateVatData>
+						<vatRateGrossData>
+							<vatRateGrossAmount>9849.91</vatRateGrossAmount>
+							<vatRateGrossAmountHUF>9849.91</vatRateGrossAmountHUF>
+						</vatRateGrossData>
+					</summaryByVatRate>
+					<invoiceNetAmount>7755.91</invoiceNetAmount>
+					<invoiceNetAmountHUF>7755.91</invoiceNetAmountHUF>
+					<invoiceVatAmount>2094.10</invoiceVatAmount>
+					<invoiceVatAmountHUF>2094.00</invoiceVatAmountHUF>
+				</summaryNormal>
+				<summaryGrossData>
+					<invoiceGrossAmount>9850.00</invoiceGrossAmount>
+					<invoiceGrossAmountHUF>9850.00</invoiceGrossAmountHUF>
+				</summaryGrossData>
+			</invoiceSummary>
+		</invoice>
+	</invoiceMain>
+</InvoiceData>

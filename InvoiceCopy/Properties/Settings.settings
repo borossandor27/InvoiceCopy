@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InvoiceCopy.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="forras" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">in</Value>
+    </Setting>
+    <Setting Name="masolt" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">input</Value>
+    </Setting>
+    <Setting Name="cel" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">out</Value>
+    </Setting>
+    <Setting Name="idoszelet" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="elotag" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DigitalStand_</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
